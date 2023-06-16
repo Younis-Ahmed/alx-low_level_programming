@@ -5,12 +5,13 @@
 */
 int main(void)
 {
-int base10;
-while (base10 <= 9)
-{
-printf("%i", base10);
-++base10;
-}
-printf("\n");
-return (0);
+	int base10;
+
+	while (base10 <= 9)
+	{
+		printf("%i", base10);
+		++base10;
+	}
+	printf("\n");
+	return (0);
 }

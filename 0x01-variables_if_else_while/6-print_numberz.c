@@ -5,9 +5,10 @@
 */
 int main(void)
 {
-int baseNum;
-for (baseNum = 48; baseNum <= 57; baseNum++)
-putchar(baseNum);
-putchar('\n');
-return (0);
+	int baseNum;
+
+	for (baseNum = 48; baseNum <= 57; baseNum++)
+		putchar(baseNum);
+	putchar('\n');
+	return (0);
 }
