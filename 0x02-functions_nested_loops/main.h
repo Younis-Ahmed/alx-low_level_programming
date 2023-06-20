@@ -1,5 +1,6 @@
 #ifndef MAIN
 #define MAIN
+void print_times_table(int n);
 void print_to_98(int n);
 int add(int, int);
 void times_table(void);
