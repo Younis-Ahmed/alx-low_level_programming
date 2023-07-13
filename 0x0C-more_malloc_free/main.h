@@ -1,5 +1,6 @@
 #ifndef MAIN
 #define MAIN
+#define min(x, y) (((x) < (y)) ? (x) : (y))
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
