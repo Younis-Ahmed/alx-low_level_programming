@@ -1,0 +1,2 @@
+struct
+ALX SWE
