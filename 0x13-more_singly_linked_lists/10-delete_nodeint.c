@@ -7,14 +7,14 @@
  */
 unsigned int len(listint_t *h)
 {
-        unsigned int i = 0;
+	unsigned int i = 0;
 
-        while (h)
-        {
-                ++i;
-                h = h->next;
-        }
-        return (i);
+	while (h)
+	{
+		++i;
+		h = h->next;
+	}
+	return (i);
 }
 
 /**
